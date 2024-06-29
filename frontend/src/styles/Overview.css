@@ -1,0 +1,82 @@
+html, body {
+  height: auto;
+  margin: 30px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4e14d00; 
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.plaid-link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.plaid-link-button {
+  background-color: #333;
+  color: #8d6c00;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 43px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.plaid-link-button:hover {
+  background-color: #555;
+}
+
+.columns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1700px; 
+  margin-top: 20px; 
+}
+
+.column {
+  display: ruby-base;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 1200px) {
+  .columns-container {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
