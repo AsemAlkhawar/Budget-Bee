@@ -22,9 +22,9 @@ Budget Bee is a comprehensive web application designed to help users manage thei
   - **Mongoose:** Object Data Modeling (ODM) library for MongoDB and Node.js.
 - **APIs:**
   - **Plaid:** Provides APIs for developers to interact with banks and financial institutions.
+  - **ChatGPT:** Utilizes OpenAI's ChatGPT for intelligent transaction categorization.
 - **Hosting/Deployment:**
-  - **Heroku:** Cloud platform for hosting and managing applications.
-  - **GitHub:** Source code management and version control.
+  - **General Server Hosting:** Host the application on any cloud or on-premise server environment.
 
 ## Installation and Setup
 
@@ -53,12 +53,7 @@ cd Budget-Bee
    ```bash
    npm install
    ```
-3. Create a `.env` file and populate it with your MongoDB URI, Plaid client ID, and secret:
-   ```plaintext
-   MONGO_URI=your_mongodb_uri
-   PLAID_CLIENT_ID=your_plaid_client_id
-   PLAID_SECRET=your_plaid_secret
-   ```
+3. Populate your `config.js` file with the required settings (MongoDB URI, Plaid client ID, and secret):
 4. Start the server:
    ```bash
    npm start
@@ -83,12 +78,8 @@ cd Budget-Bee
 
 - **Asem Alkhawar**
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## Acknowledgments
 
 - Plaid for financial data APIs.
-- Heroku for hosting solutions.
+- ChatGPT for intelligent categorization capabilities.
 - All open-source contributors whose libraries facilitated this project.
