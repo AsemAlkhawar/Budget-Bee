@@ -100,8 +100,8 @@ Budget-Bee/
 ## 👨‍💻 Author
 
 **Asem Alkhawar**
-- GitHub: [@yourgithub](https://github.com/yourgithub)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/yourlinkedin)
+- GitHub: [@AsemAlkhawar](https://github.com/AsemAlkhawar)
+- LinkedIn: [Asem Alkhawar](https://www.linkedin.com/in/asem7)
 
 ## 🙏 Acknowledgments
 
@@ -109,20 +109,3 @@ Budget-Bee/
 - OpenAI for the powerful ChatGPT model
 - The open-source community for their invaluable libraries and tools
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-```
-
-This improved README:
-1. Uses emojis for better visual appeal
-2. Adds a project logo placeholder
-3. Expands on the features and technologies used
-4. Provides a more detailed getting started guide
-5. Includes a project structure overview
-6. Mentions security considerations
-7. Lists potential future enhancements
-8. Adds more personal touches like author details and acknowledgments
-9. Includes a license section
-
-Remember to replace placeholder texts (like image paths, GitHub/LinkedIn links) with your actual information. You can also adjust any sections as needed to better reflect your project's specifics.
