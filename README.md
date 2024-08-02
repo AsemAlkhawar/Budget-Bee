@@ -1,7 +1,7 @@
 
 # Budget Bee 🐝💰
 
-![Budget Bee Logo](frontend/src/logo.png)
+![Budget Bee Logo](frontend/public/logo.png)
 
 Budget Bee is a comprehensive web application designed to empower users in managing their personal finances. By securely connecting to bank accounts, intelligently categorizing transactions, and visualizing financial data through interactive charts, Budget Bee provides clear insights into spending patterns, enabling informed budgeting decisions.
 
