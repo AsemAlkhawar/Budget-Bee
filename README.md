@@ -1,6 +1,4 @@
-Here's an improved version of your README.md that enhances the presentation and adds more details:
 
-```markdown
 # Budget Bee 🐝💰
 
 ![Budget Bee Logo](path/to/logo.png)
